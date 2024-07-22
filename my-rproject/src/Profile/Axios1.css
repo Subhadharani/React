@@ -1,0 +1,44 @@
+/* Profile container style
+/* Profile container styles */
+
+    
+.profile-container {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 560px;
+    height: 360px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+    border-radius:70px;
+    background-color: blanchedalmond;
+}
+
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Text styles */
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Loading indicator styles */
+  .loading {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Error message styles */
+  .error {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-top: 50px;
+  }
+  

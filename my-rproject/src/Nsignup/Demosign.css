@@ -1,0 +1,70 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1057762106/photo/silhouette-of-yoga-woman-meditation-on-sea-beach-at-twilight.jpg?s=612x612&w=0&k=20&c=TaSPwSu6XHE0Y9L7TyAKdcYpxZd-6d1Y8xPSvNkIg0g="); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .form-card {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center; /* Center the content */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #428b49;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3; /* Loader animation */
+    border-radius: 50%;
+    border-top: 16px solid #3498db; /* Animated color */
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    animation: spin 1s
+  }  

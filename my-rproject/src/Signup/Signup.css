@@ -1,0 +1,18 @@
+.flex{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 560px;
+    height: 560px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+    border-radius:90px;
+    
+}
+
+.back{
+    background-color: skyblue;
+    background-attachment: fixed;
+
+}
